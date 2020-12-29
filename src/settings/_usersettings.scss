@@ -163,6 +163,18 @@
 			}
 		}
 	}
+	.background-1QDuV2 {
+		background-color: var(--background);
+		border: solid 1px var(--base-border);
+		border-radius: var(--border-radius);
+		.fieldList-21DyL8 {
+			background-color: var(--background);
+			margin: -16px;
+			margin-top: 8px;
+			border-top: solid 1px var(--base-border);
+			border-radius: 0;
+		}
+	}
 
 	// Privacy and Safety
 	.children-rWhLdy > .marginBottom20-32qID7.marginTop8-1DLZ1n.flex-1xMQg5 {
@@ -265,6 +277,7 @@
 	.integration-3kMeY4 {
 		background: var(--background-dark);
 		border: 1px solid var(--base-border);
+		border-radius: var(--border-radius);
 	}
 	.integrationName-2tSCoY {
 		color: var(--text-focus);
@@ -315,7 +328,7 @@
 		margin-right: 0;
 	}
 	.integrationsWrapper-VkM_zO {
-		padding: var(--spacing) 0;
+		padding: var(--spacing) 0 0 0;
 	}
 
 	// Billing
@@ -485,6 +498,73 @@
 		}
 	}
 
+	// Subscriptions
+	.subscriptionDetails-1dUmjl {
+		.banner-3Kac2g {
+			background: var(--background-alt);
+			border: solid 1px var(--base-border);
+			border-radius: var(--border-radius);
+			max-width: 714px;
+			.bannerBackgroundImage-1DMjWi {
+				display: none;
+			}
+			.externalButton-24IwRV {
+				text-transform: none;
+			}
+			.planInfo-1bDJtx {
+				font-size: var(--font-size);
+			}
+		}
+		.details-1YZMDP {
+			.detailsBlock-FoDTGA {
+				background: var(--background);
+				border: solid 1px var(--base-border);
+				border-radius: var(--border-radius);
+				font-size: var(--font-size);
+				.title-3sZWYQ {
+					font-weight: var(--font-weight-semibold);
+					font-size: var(--font-size-md);
+					color: var(--text-normal);
+				}
+				&:last-child {
+					.externalContainer-20zADp {
+						.fullWidth-1orjjo {
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.hero-EvfTTA {
+		width: auto;
+		max-width: 714px;
+		background: var(--background-dark);
+		border: solid 1px var(--base-border);
+		height: 290px;
+		border-radius: var(--border-radius);
+		.heroIcon-3QgOM5 {
+			margin-top: 40px;
+		}
+	}
+	.featureGrid-3-fNl- {
+		.feature-2w65J5 {
+			border: solid 1px var(--base-border);
+			border-radius: var(--border-radius);
+			background: var(--background-alt);
+			.stickerImageSection-7EUs8E {
+				border: solid 1px var(--base-border);
+				background: var(--background);
+				border-radius: var(--border-radius);
+			}
+		}
+	}
+	.promotionBanner-1fCSab {
+		background: var(--background-alt);
+		border: solid 1px var(--base-border);
+		border-radius: var(--border-radius);
+	}
+
 	// Gift Inventory
 	main > div h2 + .children-rWhLdy form {
 		margin-bottom: var(--spacing-double);
@@ -511,8 +591,98 @@
 		margin:0;
 	}
 
-	// Voice and Video
+	// Server Boost
+	.guild-Hq0WWA {
+		max-width: 714px;
+		border: solid 1px var(--base-border);
+		border-radius: var(--border-radius);
+		.guildHeader-3nh5RK {
+			background: var(--background-alt);
+			border-bottom: solid 1px var(--base-border);
+			.guildName-1B3vm5 {
+				color: var(--text-normal);
+				font-weight: var(--font-weight-semibold);
+				font-size: var(--font-size-md);
+			}
+		}
+		.guildSubscriptionSlots-JPXXvN {
+			background: var(--background-dark);
+			.guildSubscriptionCreationDate-2b_pKA {
+				color: var(--text-normal);
+				font-weight: var(--font-weight-normal);
+				font-size: var(--font-size);
+			}
+			.colorMuted-HdFt4q {
+				color: var(--text-muted);
+				font-weight: var(--font-weight-normal);
+				font-size: var(--font-size-sm);
+			}
+		}
+	}
+	.guildsSection-3AvK09 {
+		.guilds-3A5wi_ {
+			max-width: 698px;
+			.cardWrapper-2Min21 {
+				background: var(--background-alt);
+				border: solid 1px var(--base-border);
+			}
+		}
+	}
 
+	// HypeSquad
+	.membershipDialog-rVL-t_ {
+		background: var(--background-alt);
+		border: solid 1px var(--base-border);
+		border-radius: var(--border-radius);
+		.directionRow-3v3tfG {
+			.size12-3cLvbJ {
+				font-size: var(--font-size-sm);
+				color: var(--text-muted);
+				font-weight: var(--font-weight-normal);
+				margin-bottom: 0;
+				text-transform: none;
+			}
+			.membershipDialogHouseName-ezTTJ9 {
+				font-weight: var(--font-weight-semibold);
+				font-size: var(--font-size-lg);
+				color: var(--text-normal);
+				line-height: var(--line-height);
+				margin-bottom: 0;
+			}
+			.membershipDialogHouseDescription-1GaVtg {
+				color: var(--text-normal);
+				font-weight: var(--font-weight-normal);
+				font-size: var(--font-size-md);
+			}
+		}
+		.membershipDialogSwitchHouses-1K8L1U {
+			color: var(--text-muted);
+			font-weight: var(--font-weight-normal);
+			font-size: var(--font-size);
+			padding-top: 0;
+			border: none;
+		}
+		&:after {
+			background: none;
+		}
+		&.membershipDialogHouse1-3KhKE- {
+			border-color: #9c84ef
+		}
+		&.membershipDialogHouse2-35h9SY {
+			border-color: #f47b67
+		}
+		&.membershipDialogHouse3-15OBIQ {
+			border-color: #45ddc0
+		}
+	}
+	.features-2npk2D  {
+		.video-34IsHk>.video-2aTfcg {
+			width: 714px;
+			height: 400px;
+		}
+	}
+
+	// Voice and Video
 	.userSettingsVoice-iwdUCU {
 		.micTest-2C-tpt {
 			button {
@@ -747,7 +917,7 @@
 		border-radius:var(--border-radius);
 		padding:var(--spacing);
 		font-size:var(--font-size);
-		font-weight:var(--font-weight-noraml);
+		font-weight:var(--font-weight-normal);
 		line-height:normal;
 		margin:0;
 		background-color:rgba(var(--status-yellow), .25);

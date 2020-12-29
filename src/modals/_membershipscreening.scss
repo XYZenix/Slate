@@ -1,0 +1,39 @@
+.container-19nk2r.root-1gCeng.medium-2RE1hE.fullscreenOnMobile-1bD22y {
+  overflow: hidden;
+  .guildSidebar-2OCzWB {
+    background: var(--background-dark);
+    border-radius: 0;
+    .guildIcon-38Zs0M {
+      border-radius: var(--border-radius);
+    }
+  }
+  .modal-f02hVt {
+    background: var(--background-alt);
+    border-radius: 0;
+    .formFieldWrapper-malor5 {
+      border: solid 1px var(--base-border);
+      border-radius: var(--border-radius);
+      background: var(--background);
+      .termsRow-2dS5nm {
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-bottom-color: var(--base-border);
+        .colorMuted-HdFt4q {
+          font-weight: var(--font-weight-normal);
+          font-size: var(--font-size-sm);
+          color: var(--text-muted);
+        }
+        .termsRowContent-24S2LO {
+          font-weight: var(--font-weight-normal);
+          font-size: var(--font-size-md);
+          color: var(--text-normal);
+        }
+      }
+    }
+    .footer-2gL1pp {
+      border-radius: 0;
+    }
+  }
+}

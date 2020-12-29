@@ -36,5 +36,8 @@
     &:before {
       content: none;
     }
+    &.mention-1f5kbO {
+        background: rgb(var(--status-red));
+    }
   }
 }

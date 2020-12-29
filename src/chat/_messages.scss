@@ -494,18 +494,26 @@
       margin-right: 0;
     }
     & > .anchor-3Z-8Bb {
-      height: 51px;
+      height: 52px;
       display: flex;
       align-items: center;
       padding: 0 var(--spacing-half);
+      margin-right: 0;
       border-left: 1px solid var(--base-border);
       svg {
         color: var(--text-muted);
         opacity: 1;
         margin-left: 0;
+        cursor: default;
+        path {
+            d: path("M8 11H11V5H13V11H16L12 15L8 11ZM19 7H15V8H19V16H5V8H9V7H5C4.45 7 4 7.45 4 8V17C4 17.55 4.45 18 5 18H10.34C10.09 18.61 9.48 19.39 8 20H16C14.52 19.39 13.91 18.61 13.66 18H19C19.55 18 20 17.55 20 17V8C20 7.45 19.55 7 19 7Z")
+        }
       }
-      &:hover svg {
-        color: var(--text-normal);
+      &:hover {
+        background: var(--background-alt);
+        svg {
+          color: var(--text-normal);
+        }
       }
     }
   }
@@ -958,6 +966,35 @@
 .powercord-lines,
 .powercord-codeblock-lang {
   display: none;
+}
+
+// Announcement Channel Publish Notice
+.container-1ov-mD {
+    .bumpBox-1r5p3c {
+        background: var(--background);
+        border: solid 1px var(--base-border);
+        border-radius: var(--border-radius);
+        padding: var(--spacing-third) var(--spacing-half);
+        margin-right: 8px;
+        .tagline-36at0H {
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-normal);
+            color: var(--text-normal);
+            line-height: var(--line-height);
+        }
+        .publish-10uopb .contents-18-Yxp {
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-normal);
+            color: var(--text-link);
+            line-height: var(--line-height);
+        }
+    }
+    .hidePermanently-36wWty {
+        font-weight: var(--font-weight-normal);
+        font-size: var(--font-size-sm);
+        color: var(--text-muted);
+        line-height: var(--line-height);
+    }
 }
 
 // Light Mode

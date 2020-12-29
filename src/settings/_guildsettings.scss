@@ -183,7 +183,7 @@
       height:156px !important;
       margin-bottom:var(--spacing-double);
       background:var(--text-muted) !important;
-      mask:url($illustration_7) center/contain no-repeat; 
+      mask:url($illustration_7) center/contain no-repeat;
     }
     .title-2BxgL2 {
       color:var(--text-normal);
@@ -225,7 +225,7 @@
     border-top:none;
     height:var(--item-height);
     padding:var(--spacing);
-    box-sizing:content-box; 
+    box-sizing:content-box;
     &:last-child {
       border-radius:0 0 var(--border-radius) var(--border-radius);
     }
@@ -293,7 +293,7 @@
     &:last-child {
       margin:0;
     }
-    .headerClickable-2IVFo9, 
+    .headerClickable-2IVFo9,
     .headerDefault-1wrJcN,
     .headerExpanded-CUEwZ5 {
       border:1px solid var(--base-border);
@@ -415,5 +415,97 @@
         }
       }
     }
+  }
+
+  // Server Template
+  .descriptionBox-1EKQKL {
+      background: var(--background-alt);
+      border: solid 1px var(--base-border);
+      margin-bottom: 10px;
+      border-radius: var(--border-radius);
+  }
+
+  // Membership Screening
+  .enableContainer-2DIT9Q {
+      background: var(--background-alt);
+      border: solid 1px var(--base-border);
+      border-radius: var(--border-radius);
+      .editCircle-y9c7xP {
+          background: none;
+          width: 28px;
+          height: 28px;
+      }
+  }
+  .descriptionWrapper-3AsAaj {
+      .input-cIJ7To {
+          height: 80px;
+      }
+  }
+  .previewContainer-12Libf {
+      .editableFieldsContainer-1LYE1s {
+          .editableFormFieldWrapper-S6Tyfh {
+              .settingsFormItem-103g1I {
+                  background: var(--background-alt);
+                  border: solid 1px var(--base-border);
+                  border-radius: var(--border-radius);
+              }
+              .settingsFormFieldWrapper-3Y77Pr {
+                  background: var(--background);
+                  border: solid 1px var(--base-border);
+                  border-radius: var(--border-radius);
+              }
+              .title-3sZWYQ {
+                  font-size: var(--font-size-md);
+                  font-weight: var(--font-weight-normal);
+                  color: var(--text-normal);
+              }
+              .termsRow-2dS5nm {
+                  margin-left: -12px;
+                  margin-right: -12px;
+                  padding-left: 12px;
+                  padding-right: 12px;
+                  border-bottom-color: var(--base-border);
+                  .colorMuted-HdFt4q {
+                      color: var(--text-muted);
+                      font-weight: var(--font-weight-normal);
+                      font-size: var(--font-size);
+                  }
+                  .termsRowContent-24S2LO {
+                      color: var(--text-normal);
+                      font-weight: var(--font-weight-normal);
+                      font-size: var(--font-size-md);
+                  }
+              }
+          }
+      }
+  }
+
+  // Server Boost Status
+  .progress-LWvunf {
+      .tier-2c9-hT {
+          border-radius: var(--border-radius);
+      }
+  }
+  .tier-3H4BXk {
+      border-radius: var(--border-radius);
+      border: solid 1px var(--base-border);
+      .tierHeaderContent-2-YfvN {
+          background: var(--background-dark);
+          .tierUnlocked-27DwHo {
+              border-radius: var(--border-radius);
+              color: var(--text-muted);
+              background: var(--background-alt);
+              text-transform: none;
+              font-size: var(--font-size-md);
+              border: solid 1px var(--base-border);
+          }
+      }
+      .tierHeaderUnlocked-2RhWqn .tierHeaderContent-2-YfvN {
+          background: var(--background-light);
+      }
+      .tierBody-x9kBBp {
+          background: var(--background-alt);
+          border-top: solid 1px var(--base-border);
+      }
   }
 }

@@ -1,7 +1,7 @@
 #app-mount {
   // Native context menus
   .styleFlexible-wGDiIL,
-  .submenu-2-ysNh {
+  .submenu-2-ysNh, .menu-3sdvDG {
     background: var(--background);
     box-shadow: var(--elevation-1);
     border: 1px solid var(--base-border);
@@ -35,7 +35,8 @@
       padding: var(--spacing-half) var(--spacing);
       box-sizing: border-box;
       border-radius: 0;
-      height: 32px;
+      min-height: 32px;
+      height: auto;
       cursor: var(--cursor);
       .labelContainer-1BLJti {
         padding:0 var(--spacing);

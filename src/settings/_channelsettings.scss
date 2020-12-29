@@ -1,0 +1,45 @@
+#app-mount .layer-3QrUeG[aria-label="CHANNEL_SETTINGS"] {
+    // Header
+    .contentRegion-3nDuYy::before {
+        content: "Channel Options";
+    }
+
+    // Permissions
+    .group-1WdBVp {
+        border: solid 1px var(--base-border);
+        background: var(--base-border);
+        width: auto;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        .item-1yAxl1 {
+            background: var(--background);
+            width: 26px;
+            border-radius: 0;
+            &:hover {
+                background: var(--background-alt);
+            }
+            &:active, &.selected-2YhbGh {
+                background: var(--background-light);
+            }
+            &:not(:last-child) {
+                border-right: solid 1px var(--base-border);
+            }
+            &:first-child {
+                width: 27px;
+            }
+            &.deny-3nAuT6.selected-2YhbGh {
+                background: rgb(var(--status-red));
+            }
+            &.allow-1PzSY3.selected-2YhbGh {
+                background: rgb(var(--status-green));
+            }
+        }
+    }
+    .sidebarScrollable-1qPI87 {
+        margin-top: 50px;
+    }
+    // Save Notice
+    .noticeRegion-1YviSH {
+        left: unset;
+    }
+}
